@@ -1,0 +1,37 @@
+# CODEOWNERS file for order-database-90
+# Global owners - will be requested for all PRs
+* @Armor-test/team-logging @Armor-test/grp-search @Armor-test/team-notifications
+
+# Directory ownership
+/public/ @Armor-test/squad-database @Armor-test/squad-api @Armor-test/squad-cache
+/modules/ @Armor-test/squad-tooling @Armor-test/team-logging
+/helpers/ @Armor-test/squad-cloud @Armor-test/dept-reliability @Armor-test/grp-ui
+/styles/ @Armor-test/dept-data @Armor-test/squad-api @Armor-test/squad-ml
+/assets/ @Armor-test/grp-reporting @Armor-test/grp-search @Armor-test/dept-notifications
+/migrations/ @Armor-test/team-reporting @Armor-test/team-notifications @Armor-test/squad-search
+/pages/ @Armor-test/team-notifications @Armor-test/dept-reliability @Armor-test/squad-database
+/internal/ @Armor-test/squad-cloud @Armor-test/dept-reporting @Armor-test/dept-logging
+/scripts/ @Armor-test/squad-cache @Armor-test/squad-payments @Armor-test/dept-test
+/security/ @Armor-test/squad-performance @Armor-test/squad-search
+/tests/ @Armor-test/dept-notifications @Armor-test/squad-product
+
+# File type ownership
+*.php @Armor-test/dept-api @Armor-test/dept-reporting @Armor-test/squad-search
+*.md @Armor-test/grp-storage @Armor-test/unit-cloud @Armor-test/dept-billing
+*.cs @Armor-test/dept-reliability @Armor-test/dept-notifications
+*.css @Armor-test/dept-test @Armor-test/squad-qa
+*.java @Armor-test/squad-frontend @Armor-test/squad-product @Armor-test/unit-test
+*.scss @Armor-test/squad-cloud @Armor-test/dept-automation
+*.graphql @Armor-test/squad-apps @Armor-test/squad-product @Armor-test/team-security
+*.yml @Armor-test/dept-identity @Armor-test/unit-design
+*.sql @Armor-test/squad-apps @Armor-test/team-reporting @Armor-test/squad-reporting
+*.kt @Armor-test/squad-reporting @Armor-test/squad-cloud @Armor-test/unit-governance
+*.toml @Armor-test/squad-reporting @Armor-test/grp-storage @Armor-test/squad-tooling
+*.xml @Armor-test/unit-design @Armor-test/unit-devops @Armor-test/dept-data
+*.jsx @Armor-test/dept-logging @Armor-test/dept-reporting
+*.lock @Armor-test/team-core @Armor-test/dept-reporting
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
